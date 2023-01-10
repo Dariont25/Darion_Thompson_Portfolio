@@ -9,19 +9,22 @@ import { Link } from "react-scroll";
 
 const Footer = () => {
   return( 
+  <div style ={{}}>
   <Box 
     sx={{
-      maxWidth: "flex", 
-      borderTop: "1px solid #7B89A8", 
-      mx:"auto", 
-      padding: 3, 
-      diplay: "flex", 
-      justifyContent: "space-around"
+       
+      borderTop: "1px solid #7B89A8",   
+      justifyContent: "space-around",
+      display:"flex",
+      
+      
+      
+      
     }}>
-    <Box sx ={{display: "flex", flexDirection: "column", }}>
+    <Box sx ={{width:"100px",flexDirection:"column", display:"flex"}}>
       <Typography 
       variant = "body1" 
-      sx={{color: "#7B89A8", fontWeight: "bold", mb: 2}}
+      sx={{color: "#7B89A8", fontWeight: "bold", mb: 2, }}
       >
         PAGES
       </Typography>
@@ -50,21 +53,21 @@ const Footer = () => {
       </Link>
 
     </Box>
-    <Box sx ={{display:"flex", flexDirection:"column",}}>
+    <Box sx ={{flexDirection:"column"}}>
       <Typography variant ="body1"
       sx = {{color: "#7B89A8", fontWeight: "bold", mb:2}}
       >
         SOCIAL
       </Typography>
       <Box sx ={{display :"flex", alignItems: "center", cursor:"pointer"}}>
-        <GitHubIcon sx={{mr:2, color: "white"}}/>
+      <a href="https://github.com/Dariont25"><GitHubIcon sx={{mr:2, color: "white"}}/></a>
         <Typography variant="body2" sx={{color: "white", my:1}}>
           GitHub
         </Typography>
       </Box>
 
       <Box sx ={{display :"flex", alignItems: "center", cursor:"pointer"}}>
-        <LinkedInIcon sx={{mr:2, color: "white"}}/>
+        <a href ="https://www.linkedin.com/in/darion-thompson25/"><LinkedInIcon sx={{mr:2, color: "white"}}/></a>
         <Typography variant="body2" sx={{color: "white", my:1}}>
           LinkedIn
         </Typography>
@@ -79,6 +82,7 @@ const Footer = () => {
 
     </Box>
   </Box>
+  </div>
   );
 };
 
