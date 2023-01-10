@@ -11,15 +11,14 @@ const Footer = () => {
   return( 
   <Box 
     sx={{
-      maxWidth: "1100px", 
+      maxWidth: "flex", 
       borderTop: "1px solid #7B89A8", 
       mx:"auto", 
       padding: 3, 
       diplay: "flex", 
       justifyContent: "space-around"
-    }}
-  >
-    <Box sx ={{display: "inline-flex", flexDirection: " column"}}>
+    }}>
+    <Box sx ={{display: "flex", flexDirection: "column", }}>
       <Typography 
       variant = "body1" 
       sx={{color: "#7B89A8", fontWeight: "bold", mb: 2}}
