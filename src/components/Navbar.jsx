@@ -48,8 +48,8 @@ const Navbar = () => {
             <Link to ="experience" className = "link" smooth>
               Projects
             </Link>
-            <Link to = "about" className="link" smooth>
-              About Me
+            <Link to = "hero" className="link" smooth>
+              About
             </Link>
             <Link to ="about" className = "link" smooth>
               Resume
