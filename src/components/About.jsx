@@ -6,7 +6,7 @@ import Testimonial from "./Testimonial";
 
 const About = () => {
   return <Box>
-<Typography sx={{color: "white"}}>About Me</Typography>
+<Typography sx={{color: "white", textAlign: "center"}}>About Me</Typography>
 
   </Box>;
 };
