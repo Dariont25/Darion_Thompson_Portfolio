@@ -46,7 +46,7 @@ const CustomTitle = styled(Typography)(({theme}) => ({
         I'm Darion Thompson
       </CustomTitle>
       <Typography sx={{color: "white", textAlign: "Center", mb:2 }} variant="h6">
-        <span style={{color: "yellow"}}>Biology</span> and <span style={{color: "yellow"}}>Computer Science</span> student
+        <span style={{color: "#ff895d"}}>Biology</span> and <span style={{color: "#ff895d"}}>Computer Science</span> student
       </Typography>
     <Box
      sx={{
