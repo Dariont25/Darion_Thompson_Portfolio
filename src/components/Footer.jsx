@@ -44,7 +44,7 @@ const Footer = () => {
         Projects
       </Link>
 
-      <Link to = "about" 
+      <Link to = "stack" 
       className="link" 
       smooth 
       style ={{color: "white", margin: "0.5rem 0", cursor: "pointer" }}
@@ -59,22 +59,22 @@ const Footer = () => {
       >
         SOCIAL
       </Typography>
-      <Box sx ={{display :"flex", alignItems: "center", cursor:"pointer"}}>
-      <a href="https://github.com/Dariont25"><GitHubIcon sx={{mr:2, color: "white"}}/></a>
+      <Box sx ={{display :"flex", alignItems: "center"}}>
+      <a href="https://github.com/Dariont25"><GitHubIcon sx={{mr:2, color: "white", cursor:"pointer"}}/></a>
         <Typography variant="body2" sx={{color: "white", my:1}}>
           GitHub
         </Typography>
       </Box>
 
-      <Box sx ={{display :"flex", alignItems: "center", cursor:"pointer"}}>
-        <a href ="https://www.linkedin.com/in/darion-thompson25/"><LinkedInIcon sx={{mr:2, color: "white"}}/></a>
+      <Box sx ={{display :"flex", alignItems: "center"}}>
+        <a href ="https://www.linkedin.com/in/darion-thompson25/"><LinkedInIcon sx={{mr:2, color: "white", cursor:"pointer"}}/></a>
         <Typography variant="body2" sx={{color: "white", my:1}}>
           LinkedIn
         </Typography>
       </Box>
 
-      <Box sx ={{display :"flex", alignItems: "center", cursor:"pointer"}}>
-        <EmailIcon sx={{mr:2, color: "white"}}/>
+      <Box sx ={{display :"flex", alignItems: "center"}}>
+        <EmailIcon sx={{mr:2, color: "white", cursor:"pointer"}}/>
         <Typography variant="body2" sx={{color: "white", my:1}}>
           Contact Me
         </Typography>

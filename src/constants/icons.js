@@ -16,8 +16,8 @@ export const icons = [
   },
   {
     id: 3,
-    name: "SASS",
-    src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sass/sass-original.svg",
+    name: "C++",
+    src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg",
   },
   {
     id: 4,
@@ -26,8 +26,8 @@ export const icons = [
   },
   {
     id: 5,
-    name: "TypeScript",
-    src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg",
+    name: "Python",
+    src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg",
   },
   {
     id: 6,
