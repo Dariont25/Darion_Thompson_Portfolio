@@ -36,9 +36,8 @@ const CustomTitle = styled(Typography)(({theme}) => ({
       gap: "1rem",
      }}
      >
-      <Box sx={{height:100, width:500, mt:4, mb:4}}>
+      <Box sx={{display:'flex', mt:4, mb:4}}>
       <About/>
-
       </Box>
       
       
