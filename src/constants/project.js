@@ -1,6 +1,7 @@
 import minesweeperIMG from "../media/minesweeper.jpg";
 import Foscars from "../media/oscar-picture.jpg";
 import pageRank from "../media/pageRank.png";
+import portfolio from '../media/portfolio.png';
 
 export const projects = [
   {
@@ -9,7 +10,7 @@ export const projects = [
       "This C++ application that uses a movie's popularity rating to give movie recommendations to users.",
     image: Foscars,
     tags: ["C++", "Kaggle"],
-    source: "",
+    source: "https://github.com/Dariont25/FOSCARS",
     liveVersion: "",
     id: 0,
   },
@@ -29,7 +30,7 @@ export const projects = [
       "A simple implementation of the PageRank Algorithm used by Google Search to rank web pages in their search engine results to order or rank different web pages on the internet.",
     image: pageRank,
     tags: ["C++"],
-    source: "",
+    source: "https://github.com/Dariont25/Page-Rank",
     liveVersion: "",
     id: 2,
   },
@@ -37,9 +38,9 @@ export const projects = [
     title: "Portfolio Website",
     description:
       "Portfolio website using React and the MaterialUI library",
-    image: pageRank,
+    image: portfolio,
     tags: ["React", "MaterialUI", "JavaScript", "Netlify"],
-    source: "",
+    source: "https://github.com/Dariont25/portfolio_Darion_Thompson",
     liveVersion: "",
     id: 3,
   },
