@@ -10,7 +10,6 @@ import Container from '@mui/material/Container';
 import Avatar from '@mui/material/Avatar';
 import Button from '@mui/material/Button';
 import MenuItem from '@mui/material/MenuItem';
-
 import darionAvatar from '../media/darionAvatar.jpg'
 import { Link } from "react-scroll";
 import resume from "../media/darionThompsonResume.pdf"
@@ -38,14 +37,9 @@ function ResponsiveAppBar() {
   const handleOpenNavMenu = (event) => {
     setAnchorElNav(event.currentTarget);
   };
-  const handleOpenUserMenu = (event) => {
-    setAnchorElUser(event.currentTarget);
-  };
-
   const handleCloseNavMenu = () => {
     setAnchorElNav(null);
   };
-
   const handleCloseUserMenu = () => {
     setAnchorElUser(null);
   };
@@ -110,7 +104,7 @@ function ResponsiveAppBar() {
                 </Link>
               ))}
               <MenuItem onClick={handleCloseNavMenu}>
-              <a href={resume} target='_blank' style={{textDecoration:'inherit', color:'inherit'}}>
+              <a href={resume} target='_blank' rel="noreferrer" style={{textDecoration:'inherit', color:'inherit'}}>
                 <Typography textAlign='center'>Resume</Typography>
               </a>
               </MenuItem>
@@ -147,7 +141,7 @@ function ResponsiveAppBar() {
               </Button>
               </Link>
             ))}
-            <a href={resume} target='_blank' style={{textDecoration:'inherit', color:'inherit'}}>
+            <a href={resume} target='_blank' rel="noreferrer" style={{textDecoration:'inherit', color:'inherit'}}>
               <Button 
               onClick={handleCloseNavMenu}
               sx={{ my: 2, color: 'white', display: 'block' }}
