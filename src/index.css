@@ -5,7 +5,8 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: #005689;
+  background: #081f37; 
+  
 }
 
 code {
@@ -16,3 +17,5 @@ code {
 .link{
   cursor: pointer;
 }
+
+
