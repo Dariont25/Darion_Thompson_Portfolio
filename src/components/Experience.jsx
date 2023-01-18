@@ -7,9 +7,9 @@ import Stack from "./Stack";
 
 
 const Experience = () => {
-  return <Box sx={{maxWidth: "1300px", mx:"auto", my:12}} id="experience">
+  return <Box sx={{maxWidth: "1300px", mx:"auto", marginTop:"auto", marginBottom:"auto"}} id="experience">
     <Typography variant="h4" sx={{color:"white", textAlign:"center", mb:2}}>
-      Projects that I've <span style={{color:"yellow"}}>built</span> so far!
+      Projects that I've <span style={{color:"#5fc9f3"}}>built</span> so far!
     </Typography>
     <Box sx={{display:"flex", justifyContent:"center", flexWrap:"wrap"}}>
       {
@@ -20,6 +20,7 @@ const Experience = () => {
           description={project.description}
           tags={project.tags}
           img={project.image}
+          source={project.source}
           />
         ))
       }
