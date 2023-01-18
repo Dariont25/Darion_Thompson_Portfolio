@@ -112,9 +112,8 @@ function ResponsiveAppBar() {
           </Box>
           
           <Typography
-            variant="h5"
+            variant="h7"
             noWrap
-            component="a"
             href=""
             sx={{
               mr: 2,
@@ -125,6 +124,7 @@ function ResponsiveAppBar() {
               letterSpacing: '.3rem',
               color: 'inherit',
               textDecoration: 'none',
+              position:'left'
             }}
           >
             Darion Thompson
