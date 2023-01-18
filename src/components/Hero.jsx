@@ -43,7 +43,7 @@ const CustomTitle = styled(Typography)(({theme}) => ({
       
       
      <Link to="ContactForm" className="link" smooth>
-      <Button variant="contained">
+      <Button sx={{background:"#5fc9f3"}} variant="contained">
       Contact Me
       </Button>
     </Link>

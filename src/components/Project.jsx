@@ -1,4 +1,3 @@
-import { Description, Title } from "@mui/icons-material";
 import {
   Button,
   Card,
@@ -32,7 +31,7 @@ const Project = ({title,description,tags,img,source}) => {
     <CardActions sx={{display: "flex", flexDirection: "column"}}>
       <Box sx={{width: "100%", display:"flex", justifyContent:"space-around", mx:"auto", mb: 3}}>
         
-        <Button href={source} size="small" style={{backgroundColor:"rgba(0,199,255,255"}} variant="contained">
+        <Button href={source} size="small" style={{backgroundColor:"#2e79ba"}} variant="contained">
           GitHub
         </Button>
         

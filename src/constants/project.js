@@ -2,6 +2,7 @@ import minesweeperIMG from "../media/minesweeper.jpg";
 import Foscars from "../media/oscar-picture.jpg";
 import pageRank from "../media/pageRank.png";
 import portfolio from '../media/portfolio.png';
+import memoryManager from '../media/memoryManagement.jpg';
 
 export const projects = [
   {
@@ -44,4 +45,14 @@ export const projects = [
     liveVersion: "",
     id: 3,
   },
+  {
+    title: "Memory Manager",
+    description: "Implemented a memory manager in C++, whose features include initializing,tracking,allocating, and deallocating sections of memory.",
+    image: memoryManager,
+    tags:['C++', 'Valgrind', 'Ubuntu'],
+    source: "https://github.com/Dariont25/MemoryManager",
+    liveVersion: "",
+    id: 4,
+
+  }
 ];
