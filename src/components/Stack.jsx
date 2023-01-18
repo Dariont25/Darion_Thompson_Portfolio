@@ -30,10 +30,10 @@ const Stack = () => {
     <CustomBox sx={{my:5, padding: 2}} id="stack">
         <Box sx={{flex:1}}>
             <Typography variant ="h4" sx={{ color: "white", textAlign: "center", mb:3}}>
-              Technologies I'm familiar with.
+              Technologies I'm familiar with
             </Typography>
             <Typography variant ="h4" sx={{ color: "white", textAlign: "center", mb:3}}>
-              Always open to learning more.
+              Always open to learning more
             </Typography>
             
         </Box>
