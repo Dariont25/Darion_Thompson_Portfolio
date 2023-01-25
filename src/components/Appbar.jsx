@@ -12,7 +12,7 @@ import Button from '@mui/material/Button';
 import MenuItem from '@mui/material/MenuItem';
 import darionAvatar from '../media/darionAvatar.jpg'
 import { Link } from "react-scroll";
-import resume from "../media/darionThompsonResume.pdf"
+import resume from "../media/DarionThompsonResume2023.pdf"
 
 
 
